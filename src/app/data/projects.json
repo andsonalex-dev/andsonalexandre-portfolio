@@ -1,0 +1,28 @@
+[
+    {
+        "id": 1,
+        "title": "Site - Brasileiros para o Brasil",
+        "description": "Site a respeito do projeto 'Brasileiros para o Brasil', que visa conectar brasileiros que vivem no exterior com oportunidades e recursos no Brasil.",
+        "status": "Publicado",
+        "image_cover": "assets/images/projects/site-brasileiros-para-o-brasil.png",
+        "link": "https://www.brasileirosparaobrasil.com.br",
+        "technologies": [
+            "Blade",
+            "Laravel",
+            "MySQL",
+            "E-mail"
+        ]
+    },
+    {
+        "id": 2,
+        "title": "Site - WL Música e Alta Performance",
+        "description": "Site de apresentação da empresa WL Música e Alta Performance, que oferece serviços de consultoria e treinamento para músicos e profissionais da indústria musical.",
+        "status": "Publicado",
+        "image_cover": "assets/images/projects/site-wl-musica-e-alta-performance.png",
+        "link": "https://www.wlmusicaealtaperformance.com.br",
+        "technologies": [
+            "React",
+            "Next.js"
+        ]
+    }
+]
