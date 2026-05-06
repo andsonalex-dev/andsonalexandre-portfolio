@@ -15,7 +15,7 @@ export default function Header() {
   const bootstrapRef = useRef<BootstrapCollapseModule | null>(null)
 
   useEffect(() => {
-    import('bootstrap/dist/js/bootstrap.bundle.min.js').then((bootstrapModule) => {
+    import('bootstrap').then((bootstrapModule) => {
       bootstrapRef.current = bootstrapModule as BootstrapCollapseModule
     })
   }, [])
