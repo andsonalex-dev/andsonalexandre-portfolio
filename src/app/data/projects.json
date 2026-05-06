@@ -26,5 +26,35 @@
             "React",
             "Next.js"
         ]
+    },
+    {
+        "id": 3,
+        "title": "Projeto ToDo List EBAC",
+        "description": "Um aplicativo de gerenciamento de tarefas (todo-list) desenvolvido com Next.js 16, React 19 e TypeScript, focado em estudar e implementar testes unitários com Jest e React Testing Library.",
+        "status": "Publicado",
+        "image_cover": "/thumbs/thumb-ebac-todo-list.jpg",
+        "full_image": "/screens/screen-ebac-todo-list.png",
+        "link": "https://todo-list-next-ebac-andson.vercel.app/",
+        "technologies": [
+            "Next.js",
+            "React",
+            "TypeScript",
+            "Deploy Vercel - Actions GitHub",
+            "Testes Unitários - Jest e React Testing Library"
+        ]
+    },
+    {
+        "id": 4,
+        "title": "Projeto EBAC Blog Tecnologia",
+        "description": "Uma aplicação moderna de blog desenvolvida com Next.js 15 e TypeScript, focada em artigos sobre PHP e tecnologias relacionadas.",
+        "status": "Publicado",
+        "image_cover": "/thumbs/thumb-blog-next.jpg",
+        "full_image": "/screens/screen-ebac-blog.png",
+        "link": "https://ebac-blog-php-nextjs.vercel.app/",
+        "technologies": [
+            "Next.js",
+            "React",
+            "TypeScript"
+        ]
     }
 ]
