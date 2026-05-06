@@ -1,11 +1,34 @@
 [
-    "PHP",
-    "JavaScript",
-    "HTML",
-    "CSS",
-    "React",
-    "Next.js",
-    "Laravel",
-    "MySQL",
-    "Python"
+    {
+        "category": "Linguagens de Programação",
+        "items": ["PHP", "JavaScript", "Python"]
+    },
+    {
+        "category": "Tecnologias Web",
+        "items": ["HTML", "CSS"]
+    },
+    {
+        "category": "Frameworks e Bibliotecas",
+        "items": ["React", "Next.js", "Laravel"]
+    },
+    {
+        "category": "Banco de Dados",
+        "items": ["MySQL", "PostgreSQL", "SQLite"]
+    },
+    {
+        "category": "Ferramentas de Desenvolvimento",
+        "items": ["Git", "Docker", "VS Code"]
+    },
+    {
+        "category": "Metodologias Ágeis",
+        "items": ["Scrum", "Kanban"]
+    },
+    {
+        "category": "Habilidades Interpessoais",
+        "items": ["Trabalho em equipe", "Comunicação clara", "Resolução de problemas"]
+    },
+    {
+        "category": "Outros",
+        "items": ["REST APIs", "GraphQL", "Testes Unitários", "SOLID", "Design Patterns"]
+    }
 ]

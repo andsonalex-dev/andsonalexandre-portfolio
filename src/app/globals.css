@@ -203,15 +203,45 @@ html {
   border-color: rgba(78, 136, 194, 0.6);
 }
 
-.skill-icon {
-  font-size: 1.6rem;
+.skills-list {
+  list-style: none;
+  padding-left: 0;
+  margin-bottom: 0;
 }
 
-.skill-title {
-  margin-top: 0.55rem;
-  color: #f3f7fc;
-  font-size: 1.15rem;
+.skills-category {
+  height: 100%;
+  padding: 1rem;
+  border-radius: 0.9rem;
+  background: rgba(30, 37, 43, 0.55);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+.skills-category-title {
+  color: #a6c4e2;
+  font-size: 1rem;
   font-weight: 700;
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+}
+
+.skills-list-item {
+  min-height: 48px;
+  padding: 0.55rem 0.8rem;
+  border-radius: 0.7rem;
+  color: #f3f7fc;
+  background: rgba(30, 37, 43, 0.7);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.skills-list-item:hover {
+  border-color: rgba(78, 136, 194, 0.6);
+}
+
+.skill-name {
+  color: #f3f7fc;
+  font-size: 1rem;
+  font-weight: 600;
 }
 
 .project-card {
@@ -221,15 +251,23 @@ html {
   background: rgba(30, 37, 43, 0.86);
 }
 
-.project-cover-btn {
+.project-cover-link {
+  display: block;
   position: relative;
   width: 100%;
   min-height: 230px;
-  border: 0;
-  padding: 0;
-  text-align: left;
   overflow: hidden;
-  background: transparent;
+  text-decoration: none;
+}
+
+.project-cover-image {
+  object-fit: cover;
+  object-position: top center;
+  transition: transform 0.3s ease;
+}
+
+.project-cover-link:hover .project-cover-image {
+  transform: scale(1.03);
 }
 
 .project-cover-gradient {
@@ -257,14 +295,6 @@ html {
 }
 
 .project-details {
-  max-height: 0;
-  overflow: hidden;
-  transition: max-height 0.28s ease, padding 0.28s ease;
-  padding: 0 1.15rem;
-}
-
-.project-details.open {
-  max-height: 420px;
   padding: 1.15rem;
 }
 
@@ -283,6 +313,81 @@ html {
 .project-status {
   color: var(--muted);
   font-size: 0.9rem;
+}
+
+.project-page {
+  min-height: 100vh;
+  min-height: 100svh;
+  background: var(--background);
+}
+
+.project-back-link {
+  color: #a9c6e4;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.project-back-link:hover {
+  color: #d5e8fa;
+}
+
+.project-page-card {
+  border-radius: 1rem;
+  overflow: hidden;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  background: rgba(30, 37, 43, 0.86);
+}
+
+.project-page-thumb-wrap {
+  position: relative;
+  min-height: 300px;
+}
+
+.project-page-thumb {
+  object-fit: cover;
+  object-position: top center;
+}
+
+.project-page-title {
+  color: #f3f7fc;
+  font-size: clamp(1.7rem, 4vw, 2.2rem);
+  font-weight: 700;
+}
+
+.project-page-description {
+  color: #d2dae3;
+  font-size: 1.04rem;
+  line-height: 1.75;
+}
+
+.project-page-showcase {
+  border-radius: 0.8rem;
+  border: 1px dashed rgba(78, 136, 194, 0.55);
+  background: rgba(78, 136, 194, 0.08);
+  padding: 1rem;
+}
+
+.project-page-subtitle {
+  color: #d5e8fa;
+  font-size: 1.1rem;
+  font-weight: 700;
+}
+
+.project-page-note {
+  color: #c7d3de;
+}
+
+.project-page-full-image-wrap {
+  overflow: hidden;
+  border-radius: 0.6rem;
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  background: rgba(21, 27, 33, 0.65);
+}
+
+.project-page-full-image {
+  width: 100%;
+  height: auto;
+  display: block;
 }
 
 .contact-card {
