@@ -25,7 +25,7 @@ export default function Hero() {
 
         <div className="d-flex flex-wrap justify-content-center gap-3 mt-4 mt-md-5">
           <a
-            href="https://www.linkedin.com"
+            href="https://www.linkedin.com/in/andsonalexandre/"
             target="_blank"
             rel="noreferrer"
             className="hero-btn hero-btn-linkedin"
@@ -33,7 +33,7 @@ export default function Hero() {
             LinkedIn
           </a>
           <a
-            href="https://github.com"
+            href="https://github.com/andsonalex-dev"
             target="_blank"
             rel="noreferrer"
             className="hero-btn hero-btn-github"
