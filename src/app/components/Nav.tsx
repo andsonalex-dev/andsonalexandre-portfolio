@@ -4,8 +4,8 @@ type NavProps = {
     onItemClick?: () => void
 }
 
-const defaultNavClass = 'flex items-center gap-6 text-sm font-medium md:text-base'
-const defaultLinkClass = 'text-zinc-200 transition-colors hover:text-emerald-400'
+const defaultNavClass = 'navbar-nav gap-2 gap-md-3 gap-lg-4'
+const defaultLinkClass = 'nav-link p-0 text-light fw-semibold'
 
 export default function Nav({ className, linkClassName, onItemClick }: NavProps) {
     const navClasses = className ? `${defaultNavClass} ${className}` : defaultNavClass
@@ -13,9 +13,9 @@ export default function Nav({ className, linkClassName, onItemClick }: NavProps)
 
     return (
         <nav className={navClasses}>
-            <a className={linkClasses} href="#projects" onClick={onItemClick}>Projetos</a>
             <a className={linkClasses} href="#about" onClick={onItemClick}>Sobre</a>
             <a className={linkClasses} href="#skills" onClick={onItemClick}>Skills</a>
+            <a className={linkClasses} href="#projects" onClick={onItemClick}>Projetos</a>
             <a className={linkClasses} href="#contact" onClick={onItemClick}>Contato</a>
         </nav>
     )

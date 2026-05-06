@@ -15,16 +15,33 @@ export default function Hero() {
   }, [])
 
   return (
-    <section className="hero relative min-h-screen flex items-center justify-center bg-gradient-to-b from-[#020617] via-[#020617] to-[#03120f]">
+    <section className="hero-section d-flex align-items-center overflow-hidden">
+      <div className="hero-overlay" />
 
-      <div className="text-center">
-        <div className="container">
-          <h2>Andson Alexandre</h2>
-          <p className="subtitle">FullStack Developer</p>
-          <p className="tech">{techs[index]}</p>
+      <div className="container text-center position-relative">
+        <h2 className="hero-title">Andson Alexandre</h2>
+        <p className="hero-subtitle mb-0">FullStack Developer</p>
+        <p className="hero-tech mb-0">{techs[index]}</p>
+
+        <div className="d-flex flex-wrap justify-content-center gap-3 mt-4 mt-md-5">
+          <a
+            href="https://www.linkedin.com"
+            target="_blank"
+            rel="noreferrer"
+            className="hero-btn hero-btn-linkedin"
+          >
+            LinkedIn
+          </a>
+          <a
+            href="https://github.com"
+            target="_blank"
+            rel="noreferrer"
+            className="hero-btn hero-btn-github"
+          >
+            GitHub
+          </a>
         </div>
       </div>
-
     </section>
   )
 }
