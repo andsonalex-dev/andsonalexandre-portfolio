@@ -15,13 +15,14 @@ type Project = {
 }
 
 type ProjectPageProps = {
-  params: {
+  params: Promise<{
     id: string
-  }
+  }>
 }
 
-export default function ProjectDetailsPage({ params }: ProjectPageProps) {
-  const projectId = Number(params.id)
+export default async function ProjectDetailsPage({ params }: ProjectPageProps) {
+  const { id } = await params
+  const projectId = Number(id)
 
   if (Number.isNaN(projectId)) {
     notFound()
@@ -65,7 +66,7 @@ export default function ProjectDetailsPage({ params }: ProjectPageProps) {
             </div>
 
             <div className="d-flex align-items-center flex-wrap gap-3 mb-4">
-              <a href={project.link} target="_blank" rel="noreferrer" className="btn btn-theme">
+              <a href={project.link} target="_blank" rel="noreferrer" className="btn-theme">
                 Acessar site
               </a>
               <span className="project-status">Status: {project.status}</span>
@@ -86,8 +87,7 @@ export default function ProjectDetailsPage({ params }: ProjectPageProps) {
                 </div>
               ) : (
                 <p className="project-page-note mb-0">
-                  Espaco reservado para a imagem completa do projeto. Basta preencher o campo
-                  full_image no JSON para aparecer automaticamente aqui.
+                    Imagem não disponível.
                 </p>
               )}
             </section>

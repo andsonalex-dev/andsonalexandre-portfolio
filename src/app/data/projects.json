@@ -2,10 +2,10 @@
     {
         "id": 1,
         "title": "Site - Brasileiros para o Brasil",
-        "description": "Site a respeito do projeto 'Brasileiros para o Brasil', que visa conectar brasileiros que vivem no exterior com oportunidades e recursos no Brasil.",
+        "description": "Projeto Brasileiros para o Brasil é uma associação com valores cristãos, sem vínculo partidário, político, ideológico e eclesiásticos. O BPB pretende ser a voz do povo para o povo e o Estado com a franca intenção de estimular valores sociais segundo os ensinamentos de Jesus: Amor, honestidade, justiça e serviço. E assim fortalecendo a integridade da sociedade, reduzindo males como: corrupção, violência, desequilíbrio social, incentivando a paz, a responsabilidade cidadã, o respeito ao Estado e ao bem público.",
         "status": "Publicado",
         "image_cover": "/thumbs/thumb-brasileiros-para-o-brasil.jpg",
-        "full_image": null,
+        "full_image": "/screens/screen-brasileiros-para-o-brasil.png",
         "link": "https://www.brasileirosparaobrasil.com.br",
         "technologies": [
             "Blade",
@@ -17,7 +17,7 @@
     {
         "id": 2,
         "title": "Site - WL Música e Alta Performance",
-        "description": "Site de apresentação da empresa WL Música e Alta Performance, que oferece serviços de consultoria e treinamento para músicos e profissionais da indústria musical.",
+        "description": "Mais do que uma escola de música, a WL Música e Alta Performance é um espaço de desenvolvimento pessoal e musical. Com uma abordagem inovadora, a escola oferece aulas de música que vão além do ensino tradicional, focando no crescimento integral dos alunos. Através de uma metodologia única, a WL Música e Alta Performance busca despertar o potencial máximo de cada estudante, promovendo não apenas habilidades musicais, mas também o autoconhecimento e a excelência pessoal.",
         "status": "Em construção",
         "image_cover": "/thumbs/thumb-wl-musica.jpg",
         "full_image": null,
