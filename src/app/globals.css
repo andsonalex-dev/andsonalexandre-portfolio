@@ -40,6 +40,11 @@ h3 {
 
 html {
   scroll-behavior: smooth;
+  overflow-x: hidden;
+}
+
+body {
+  overflow-x: hidden;
 }
 
 .portfolio-header {
@@ -58,6 +63,14 @@ html {
 
 .portfolio-mobile-menu {
   background: rgba(33, 37, 41, 0.95);
+}
+
+@media (max-width: 767.98px) {
+  .navbar-collapse {
+    width: 100%;
+    max-width: 100%;
+    overflow-x: hidden;
+  }
 }
 
 .hero-section {
@@ -132,6 +145,7 @@ html {
 .portfolio-section {
   position: relative;
   z-index: 1;
+  overflow: hidden;
   background: var(--background);
 }
 
