@@ -48,14 +48,14 @@ export default function Projects() {
                 </div>
 
                 <div className="d-flex align-items-center flex-wrap gap-3 mt-4">
-                  <Link href={`/projetos/${p.id}`} className="btn btn-theme">
+                  <Link href={`/projetos/${p.id}`} className="btn-theme">
                     Ver detalhes
                   </Link>
                   <a
                     href={p.link}
                     target="_blank"
                     rel="noreferrer"
-                    className="btn btn-theme"
+                    className="btn-theme"
                   >
                     Acessar site
                   </a>

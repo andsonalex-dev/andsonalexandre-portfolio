@@ -247,7 +247,6 @@ html {
 .project-card {
   overflow: hidden;
   border-radius: 1rem;
-  border: 1px solid rgba(255, 255, 255, 0.1);
   background: rgba(30, 37, 43, 0.86);
 }
 
@@ -273,7 +272,8 @@ html {
 .project-cover-gradient {
   position: absolute;
   inset: 0;
-  background: linear-gradient(140deg, rgba(78, 136, 194, 0.46), rgba(21, 27, 33, 0.88), rgba(86, 114, 143, 0.4));
+  background: #242b32;
+  opacity: 0.6;
 }
 
 .project-cover-content {
@@ -334,7 +334,6 @@ html {
 .project-page-card {
   border-radius: 1rem;
   overflow: hidden;
-  border: 1px solid rgba(255, 255, 255, 0.1);
   background: rgba(30, 37, 43, 0.86);
 }
 
@@ -421,6 +420,9 @@ html {
   background: #4e88c2;
   border: 1px solid #4e88c2;
   font-weight: 600;
+  padding: 6px 1.4rem;
+  border-radius: 0.7rem;
+  text-decoration: none;
 }
 
 .btn-theme:hover {

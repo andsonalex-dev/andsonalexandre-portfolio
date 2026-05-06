@@ -21,7 +21,7 @@
         "status": "Em construção",
         "image_cover": "/thumbs/thumb-wl-musica.jpg",
         "full_image": null,
-        "link": "https://www.wlmusicaealtaperformance.com.br",
+        "link": "#",
         "technologies": [
             "React",
             "Next.js"
