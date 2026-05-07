@@ -14,7 +14,7 @@ export default function Nav({ className, linkClassName, onItemClick }: NavProps)
     return (
         <nav className={navClasses}>
             <a className={linkClasses} href="#about" onClick={onItemClick}>Sobre</a>
-            <a className={linkClasses} href="#skills" onClick={onItemClick}>Skills</a>
+            <a className={linkClasses} href="#skills" onClick={onItemClick}>Habilidades</a>
             <a className={linkClasses} href="#projects" onClick={onItemClick}>Projetos</a>
             <a className={linkClasses} href="#contact" onClick={onItemClick}>Contato</a>
         </nav>

@@ -11,7 +11,10 @@
             "Blade",
             "Laravel",
             "MySQL",
-            "E-mail"
+            "E-mail",
+            "PHP",
+            "Javascript",
+            "Bootstrap"
         ]
     },
     {
@@ -55,6 +58,21 @@
             "Next.js",
             "React",
             "TypeScript"
+        ]
+    },
+    {
+        "id": 5,
+        "title": "Projeto EBAC - Monorepo React",
+        "description": "Projeto de microfrontends construído com Next.js 14 e Module Federation (@module-federation/nextjs-mf), organizado como um npm workspaces monorepo.",
+        "status": "Local",
+        "image_cover": "/thumbs/thumb-ebac-monorepo.jpg",
+        "full_image": "/screens/screen-ebac-monorepo.png",
+        "link": "https://github.com/andsonalex-dev/ebac-microfrontend-monorepo",
+        "technologies": [
+            "React",
+            "Javascript",
+            "Next.js",
+            "Module Federation (@module-federation/nextjs-mf)"
         ]
     }
 ]
