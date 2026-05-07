@@ -62,7 +62,7 @@
     },
     {
         "id": 5,
-        "title": "Projeto EBAC - Monorepo React",
+        "title": "Projeto EBAC - Microfrontend Monorepo",
         "description": "Projeto de microfrontends construído com Next.js 14 e Module Federation (@module-federation/nextjs-mf), organizado como um npm workspaces monorepo.",
         "status": "Local",
         "image_cover": "/thumbs/thumb-ebac-monorepo.jpg",
